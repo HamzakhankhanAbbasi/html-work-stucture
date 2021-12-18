@@ -1,0 +1,80 @@
+//tool-tip message box-script
+//mouse-enterandmouseleavefunction
+$(document).ready(function () {
+	$(".tool-wrap").on( "mouseenter", function() {
+		$(".tool-tips").show();
+	});
+	$(".tool-wrap").on( "mouseleave", function() {
+		$(".tool-tips").hide();
+	});
+});
+
+/* tool-tip-css-start */
+.tool-wrap{
+  position: relative;
+}
+.info-icon{
+  color: #fff;
+  background: #b30000;
+  border-radius: 5px;
+  font-size: 24px;
+  height: 65px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.info-icon:hover{
+  color:#282828;
+  background-color: transparent;
+  border:1px solid #b30000;
+  border-radius: 5px;
+}
+.tool-tips{
+  position: absolute;
+  box-shadow: 2px 3px 8px rgb(150 150 150 / 40%);
+  background: #001a57;
+  border: 1px solid #939393;
+  border-radius: 10px;
+  width: 350px;
+  top: -150px;
+  padding: 10px;
+  left: -130px;
+  color: #fff;
+  display: none;
+}
+.tool-tips:before, .tool-tips:after{
+    content:"";
+    position: absolute;
+    border: 16px solid transparent;
+    left: 50%;
+}
+.tool-tips:before {
+    border-top-color: #939393;
+    margin-left:-34px;
+    bottom: -33px;
+}
+.tool-tips:after {
+  border-width: 15px;
+  border-top-color: #001a57;
+  margin-left: -33px;
+  bottom: -30px;
+  border-radius: 8px;
+}
+.tool-tips p{
+  font-size: 14px;
+  font-weight: 600;
+}
+/* tool-tip-ends */
+
+//tool-tip html-start
+<div class="tool-wrap">
+     <span class="info-icon"><i class="fas fa-info"></i></span>
+	<div class="tool-tips">
+	      <p>You can either publish a standard listing for free or go for a featured listing which will enable your ad to stay on top of it's  respective category. All ads will remain active for 30 days and can be reactivated again by the same method.</p>
+	</div>
+</div>
+//tool-tip html-end                                               

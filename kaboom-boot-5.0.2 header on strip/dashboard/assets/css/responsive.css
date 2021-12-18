@@ -1,0 +1,139 @@
+@media only screen and (max-width:1920px) {
+	header .row {
+    justify-content: center;
+    align-items: center;
+	}
+}
+@media only screen and (max-width:1540px) {
+
+}
+@media only screen and (max-width:1440px) {
+	.tag-div-icn {
+		padding: 5px 5px;
+	}
+	.save-button .sign-btn {
+		border-radius: 18px;	
+		padding: 1px 4px;
+	}
+	.save-button img {
+		padding: 0 9px;
+	}
+	.tag-div {
+		padding: 9px 7px;
+		
+	}
+	.content-text {
+		padding: 0px 11px;
+		
+	}
+	.document-tag-content i {
+		padding: 0 7px;
+	}
+	.signed-btnwrap {
+		margin: 0px 0px;
+		width: 100%;
+	}
+	.expiry-detail {
+		margin-top: 22px !important;
+	}
+	.contract-field {
+		font-size: 15px !important;
+	}
+	.contract-par-field-sel {
+		padding: 10px 0px;
+	}
+	.par-field-tel input {
+		padding: 10px 0;
+	}
+	.account-wrap-1 {
+		font-size: 20px;
+	
+	}
+	.save-button {
+		text-align: center;
+	}
+	
+}
+@media only screen and (max-width:1280px) {
+	.document-tag {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.save-button img {
+		padding: 0 9px;
+		display: none;
+	}
+	.tag-div-icn {
+		padding: 5px 5px;
+		margin-bottom: 5px;
+	}
+	.tag-div {
+		margin-bottom: 6px;
+		padding: 9px 7px;
+	}
+	.content-text {
+		padding: 0px 3px;
+	}
+	.dot-icn{
+		margin-top: 10px;
+		margin-left: 6px;
+	}
+	.method {
+		min-height: 100px;
+		height: 100%;
+	
+	}
+	.method img {
+		width: 100%;
+		max-width: 95px;
+	}
+	.form-wrap-payment {
+		padding: 0px 0px;
+	}
+	.expiry-detail {
+		margin-top: 30px !important;
+	}
+	.contract-par-field-sel {
+		padding: 15px 0px;
+	}
+	.box-card1 img {
+		max-width: 34px;
+		display: block;
+		margin: 0 auto;
+	}
+	.box-card1 {
+		display: flex;
+		flex-direction: column;
+		
+	}
+	.box-text {
+		text-align: center;
+	}
+	.dropzone {
+		min-height: 375px;
+	}
+	/* .contract-par-field {
+		
+		 width:none !important; 
+		
+	} */
+}
+
+@media only screen and (max-width:1040px) {}
+
+@media only screen and (max-width:1024px) {
+	/*.search-form {
+    margin: 0 0 0 135px;
+	}*/
+}
+
+@media only screen and (max-width:991px) {}
+
+@media only screen and (max-width:910px) {}
+
+@media only screen and (max-width:767px) {}
+
+@media only screen and (max-width:575px) {}
+
+@media only screen and (max-width:385px) {}

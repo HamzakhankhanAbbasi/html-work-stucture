@@ -1,0 +1,623 @@
+@media only screen and (max-width:1920px) {}
+@media only screen and (max-width:1540px) {}
+@media only screen and (max-width:1440px) {
+	.service-cards-wrap:after {
+		right: -1%;
+	}
+	.service-cards-wrap:before {
+		left: -1%;
+	}
+	.testimonials-wrap:after {
+		right: -1%;
+	}
+	.testimonials-wrap:before {
+		left: -1%;
+	}
+	.login-cyber-cert{
+		height:100%;
+	}
+	.login-image{
+		height:100%; 
+   }
+   .copyright {
+    padding: 40px 0px 0 0;
+}
+.form-section-input {
+    padding: 56px 0 0;
+}
+.other-logo img {
+	width: 100%;
+} 
+ section.exam-course-video {
+    padding: 0px 20px 60px;
+}  
+.tabs ul {
+    display: flex;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+.designer-detail-harry-1 h2 {
+    font-size: 25px;
+}
+.designer-detail-harry-1 p {
+    font-size: 16px;
+}
+.designer-image-exam {
+	padding: 38px 13px;
+}
+li.tab-lis {
+    width: 230px;
+}
+.AWS-Amazon h4 {
+    font-size: 35px;
+}
+.image-card img {
+    max-width: 100%;
+}
+.images-card img {
+    max-width: 100%;
+}
+.your-courses h4 {
+    font-size: 25px;
+}
+.designer-image-exam {
+    padding: 38px 10px;
+}
+.card-detail .move {
+    font-size: 12px;
+   
+}
+.card-detail .move-content {
+    font-size: 11px;
+}
+.tab-main-sec {
+    background: none; 
+  
+}
+.card-detail .move {
+    font-size: 11px;
+}
+
+}
+@media only screen and (max-width:1280px){
+    .inner-page-banner {
+        min-height: 350px;
+    }
+}
+@media only screen and (max-width:1200px) {
+	.header-mainMenu {
+    	flex-direction: row-reverse;
+    	justify-content: end;
+	}
+	.header-mainMenu.stellarnav.mobile.left>ul {
+		background: #111a3a;
+    	box-shadow: 0 0 5px 0px #ccc;
+    	z-index: 9999;
+	}
+	.header-mainMenu.stellarnav>ul>li>a {
+    	padding: 12px 10px;
+	}
+	.header-mainMenu .menu-toggle span.bars span {
+    	width: 20px;
+    	height: 3px;
+    	background: #fff;
+    	margin: 0 0 4px;
+	}
+	.header-mainMenu a {
+		color: #fff;
+	}
+	.header-mainMenu .icon-close:after, .header-mainMenu .icon-close:before {
+		border-bottom: solid 3px #fff;
+	}
+	th.exam {
+		padding: 8px 16px 2px 0px;
+	}
+}
+@media only screen and (max-width:1196px) {
+	button.btn.btn-dark {
+		padding: 5px 20px;
+		border-radius: 52px;
+	}
+}
+@media only screen and (max-width:1090px) {
+	button.btn.btn-dark {
+		padding: 5px 15px;
+		border-radius: 52px;
+	}
+}
+@media only screen and (max-width:1025px) {
+	.your-courses h4 {
+		font-size: 17px;
+	}
+}
+@media only screen and (max-width:1024px) {
+    .inner-page-banner {
+        min-height: 300px;
+    }
+	button.btn.btn-dark {
+		padding: 0px 8px;		
+	}
+	.index-sec2-image:before {
+		left: -2%;
+	}
+	.index-sec2-image:after {
+		right: -3%;
+	}
+	.service-cards-wrap:after {
+		right: -1%;
+	}
+	.service-cards-wrap:before {
+		left: -1%;
+	}
+	.testimonials-wrap:before {
+		left: -1%;
+	}
+	.testimonials-wrap:after {
+		right: -1%;
+	}
+	.counter-box1:after {	
+		height: 31px;	
+	}
+	 span.introduction {
+		font-size: 13px;
+	} 
+	.AWS-Amazon-exam h4 {	
+		font-size: 34px;	
+	}
+	li.tab-lis {
+		width: 220px;
+	}
+	.designer-image-exam img {
+		max-width: 80px;
+		max-height: 80px;
+	}
+	.designer-detail-harry-1 h2 {
+		font-size: 20px;
+	}
+	.time-limit-heading-exam .time-heading-exam {
+		font-size: 22px;
+	}
+	.AWS-Amazon-exam h4 {
+		font-weight: 700;
+		font-size: 30px;
+		padding: 55px 0 0 0;
+	}
+	.your-courses h4 {
+		font-size: 16px;
+	}
+	.designer-john-harry h2 {
+		font-size: 14px;
+	
+	}
+}
+@media only screen and (max-width:991px) {
+	.counter-box1:after {
+		right: -50%;
+	}
+	.counter-box2:after {
+
+		right: -51%;
+	}
+	.tabs ul li a {
+		
+		font-size: 18px;
+	}
+	.tabs ul li {
+		margin: auto;
+		text-align: center;
+	}
+	.your-courses h4 {
+		
+		padding: 0px 0 0 0;
+	}
+}
+@media only screen and (max-width:910px) {
+	.service-detail {
+		max-height: 104px;
+	}
+	.counter-box1:after {
+		display:none;
+	}
+	.counter-box2:after {
+	  display:none;
+	} 
+	.counter-box {
+		max-width: 150px;
+		height: 150px;
+	}
+	.copyright p {
+		font-size: 14px;
+	}
+	.choose-text {
+		width: 100%;
+	}
+	.choose-box {
+		flex-direction: column;
+	}
+	.choose-text-head {
+		font-size: 22px;
+		margin-top: 12px;
+	}
+	.index-sec2-image img {
+		width: 100%;
+	}
+	.course-heading {
+		font-size: 18px;
+	}
+	.designer-image-exam img {
+		max-width: 109px;
+		max-height: 105px;
+	}
+	.designer-detail-harry-1 h2 {
+		font-size: 20px;
+	}
+	.designer-detail-harry-1 p {
+		font-size: 14px;
+	}
+	.AWS-Amazon-exam h4 {
+		font-size: 30px;
+	}
+	.table-border span {
+		font-size: 14px;
+	}
+	.tabs ul li a {
+		font-size: 16px;
+		text-align: center;
+	}
+	li.tab-lis {
+		width: 200px;
+	}
+	.tabs ul li {
+		margin: auto;
+		text-align: center;
+	}
+	span.introduction {
+		font-size: 12px;
+	}
+	.your-courses h4 {
+		font-size: 19px;
+	}
+}
+@media only screen and (max-width:767px) {
+	.headerTop-left ul li a, .headerTop-right ul li a {
+    	font-size: 12px;
+	}
+	.headerTop-left ul li, .headerTop-right ul li {
+    	margin: 0 10px 0 0;
+	}
+	.index-sec2-image:after {
+		top: -10%;
+	}
+	.index-sec2-image:before {
+		bottom: -7%;
+	}
+	.index-sec2-text {
+		margin-top: 80px;
+	}
+	.site-bold-heading {
+		font-size: 34px;
+	}
+	.index-sec2-image:after {
+		right: -1%;
+	}
+	.index-sec2-image:before {
+		left: -1%;
+	}
+	.choose-text {
+		text-align: center;
+	}
+	.service-cards-wrap:after {
+		top: -3%;
+	}
+	.service-cards-wrap:before {
+		bottom: -2%;
+	}
+	.other-logo img {
+		width: 40%;
+	}
+	.course-title p {
+		margin-bottom: 45px;
+	}
+	.inner-head .site-bold-heading {
+		font-size: 47px;
+	}
+	.courses-box {
+		padding: 10px 0;
+	}
+	.last-font{
+		font-size:14px;
+	}
+	.tabs ul li a {
+		text-align: center;
+	}
+	.designer-image-exam {	
+		margin: 0px 0px 0px 99px;
+	}
+	.AWS-Amazon-exam h4 {
+		padding: 25px 0 0 0;
+	}
+	li.tab-lis {
+		width: 170px;
+	}
+	.tabs ul li a {
+		font-size: 13px;
+	}
+	.your-courses h4 {
+		font-size: 14px;
+	}
+	.card {
+	
+		margin-top: 12px;
+	}
+	.image-card img {
+		max-width: 100%;
+		width: 100%;
+	}
+	.your-courses h4 {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width:660px) {
+	button.btn.btn-dark {
+		padding: 2px 2px;
+		border-radius: 52px;
+	}
+}
+@media only screen and (max-width:575px) {
+    .inner-page-banner {
+        min-height: 200px;
+    }
+	.headerTop-left ul {
+		flex-direction: column;
+	}
+	.card-detail .move {
+		font-size: 16px;
+	}
+	.designer-john-harry h2 {
+		font-size: 16px;
+	}
+	.logo {
+    	max-width: 110px;
+	}
+	.header-menu {
+		padding: 25px 0 25px 10px;
+	}
+	.header-mainMenu {
+		width: calc(100% - 120px);
+	}
+	.cart-icon {
+    	margin: 0 10px;
+	}
+	.header-menu-button {
+    	margin: 0 10px;
+	}
+	.site-btn {
+    	padding: 10px 5px;
+    	font-size: 12px;
+	}
+
+	.index-sec2-image:before {
+		bottom: -10%;
+	}
+	.site-bold-heading {
+		font-size: 25px;
+	}
+	.counter-box {
+
+		margin: 10px auto;
+	}
+	.counter-wrap {
+		
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.counter-box p {
+		font-size: 10px;
+	}
+	.counter-box .counting {
+		font-size: 30px;
+	}
+	.footer_bottom {
+
+		flex-direction: column;
+	
+	}
+	.footer_bottom p {
+	    text-align: center;
+		margin-bottom: 15px;
+	}
+	.testimonial-card {
+	
+		padding: 30px 0;
+		
+	}
+	.icon3{
+		display:none;
+	}
+	.inner-head .site-bold-heading {
+		font-size: 32px;
+	}
+	.inner-banner-text .heading {
+		font-size: 35px;
+	}
+	.course-logo img {
+		max-width: 100%;
+	}
+	.course-detail {
+		margin-top: 20px;
+	}
+	.video_contnt .play {
+		width: 80px;
+		height: 80px;
+		top: 26%;
+	}
+	.tabs ul {
+		display: flex;
+		padding: 20px 0;
+		flex-wrap: wrap;
+	}
+	.designer-image-exam {
+	
+		margin: 0px 0px 0px 85px;
+	}
+	.table .table-border {
+		
+		text-align: center;
+	}
+	li.active.homes {
+		max-width: 150px;
+	}
+	li.tab-lis {
+		width: 160px;
+	}
+}
+@media only screen and (max-width:425px) {
+.designer-image-exam {
+    margin: 0px 0px 0px 20px;
+}
+.table .table-border {
+		
+	text-align: center;
+}
+}
+@media only screen and (max-width:385px) {
+	.images-card img {
+		max-width: 100%;
+		width: 100%;
+	}
+	.Dont-account-section {
+		padding: 0px 0 0;
+	}
+	.header-top {
+		justify-content: center;
+	}
+	.header-mainMenu {
+    	width: calc(100% - 100px);
+	}
+	.logo {
+    	max-width: 90px;
+	}
+	.header-menu-button .site-btn {
+    	font-size: 8px;
+	}
+	.counter-box {
+
+		margin: 10px auto;
+	}
+	.counter-wrap {
+		
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.index-sec6-text .white-heading {
+	    font-size: 32px;
+	}
+	.index-sec6-text .index-sec6-paragraph {
+	    font-size: 15px;
+	  
+	}
+	.index-sec2-image:after {
+		top: -24%;
+		right: -3%;
+	}
+	.index-sec2-image:before {
+		left: -3%;
+	}
+	.index-sec2-image:before {
+		bottom: -18%;
+	}
+	.index-sec1-slider .item {
+		min-height: 445px;
+	}
+	.index-sec1-itemContent .bold-heading {
+		font-size: 30px;
+	}
+	.icon3 {
+		display:none;
+	}
+	.testimonial-card {
+	
+		padding: 30px 0;
+		
+	}
+	.inner-head .site-bold-heading {
+		font-size: 27px;
+	}
+	.inner-banner-text .heading {
+		font-size: 28px;
+	}
+	.other-logo img {
+		width: 50%;
+	}
+	.course-detail {
+		margin-top: 20px;
+	}
+	.video_contnt .play {
+		width: 70px;
+		height: 70px;
+		top: 21%;
+	}
+	.designer-image-exam {
+		margin:0px;
+	}
+	.AWS-Amazon-exam h4 {
+		font-size: 25px;
+	}
+	.table .table-border {
+		
+		text-align: center;
+	}
+	.designer-image-exam img {
+		 max-width: 109px;
+		max-height: 90px; 
+	}
+	.designer-detail-harry-1 h2 {
+		font-size: 18px;
+	}
+	.designer-detail-harry-1 p {
+		font-size: 14px;
+	}
+	.AWS-Amazon h4 {
+		font-size: 19px;
+	}
+	.card-detail .move-content {
+		font-size: 9px;
+	}
+	.card-detail .move {
+		font-size: 16px;
+	}
+	.designer-john-harry h2 {
+		font-size: 12px;
+	}
+	.designer-john-harry h2 {
+		font-size: 18px;
+	}
+	.dummy {
+		font-size: 14px;
+	}
+	.table-buttons {
+		width: 80px;
+	}
+	.AWS-Amazon-practise .intro {
+		font-size: 22px;
+		
+	}
+}
+@media only screen and (max-width:358px) {
+	.copyright p {
+		font-size: 13px;
+	}
+	li.tab-lis {
+		width: 130px;
+	}
+	.tabs ul li a {
+		font-size: 11px;
+		padding: 10px;
+	}
+	.time-limit-heading-exam .time-heading-exam {
+		font-size: 22px;
+		text-align: center;
+	}
+
+}

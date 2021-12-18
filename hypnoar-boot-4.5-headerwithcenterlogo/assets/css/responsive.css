@@ -1,0 +1,674 @@
+@media only screen and (max-width:1920px) {
+    .indexSectionTwo .bottomBig {
+        bottom: 30px;
+    }
+    .indexSectionThree .bottomBig {
+        bottom: 30px;
+    }
+    .arttherapy-sec2 .bottomBig {
+        bottom: -90px;
+    }
+    .indexSectionThree .carouselWrap .therapyInner .main{
+        max-height: 220px;
+        max-width: 400px;
+    }
+    .indexSectionThree .carouselWrap .therapyInner .contentBox .heading{
+        font-size: 20px !important;
+    }
+    .indexSectionThree .carouselWrap .therapyInner .absArc {
+        max-width: 100px;
+    }
+}
+@media only screen and (max-width:1600px) {
+    .indexSectionThree .carouselWrap .therapyInner .main{
+        max-height: 220px;
+        max-width: 350px;
+    }
+    .indexSectionThree .carouselWrap .therapyInner .contentBox .heading{
+        font-size: 20px !important;
+    }
+    .indexSectionThree .carouselWrap .therapyInner .absArc {
+        max-width: 100px;
+    }
+}
+@media only screen and (max-width:1440px) {
+    .main-neuro {
+        font-size: 35px !important;
+    }
+    .indexSectionThree .carouselWrap .therapyInner .main{
+        max-height: 220px;
+        max-width: 350px;
+    }
+    .indexSectionThree .carouselWrap .therapyInner .contentBox .heading{
+        font-size: 20px !important;
+    }
+    .indexSectionThree .carouselWrap .therapyInner .absArc {
+        max-width: 100px;
+    }
+}
+@media only screen and (max-width:1280px) {
+    .indexSectionThree .carouselWrap .therapyInner .main{
+        max-height: 190px;
+        max-width: 340px;
+    }
+    .indexSectionThree .carouselWrap .therapyInner .contentBox .heading{
+        font-size: 17px !important;
+    }
+    .stainGuide .bottomBig {
+        bottom: 40px !important;
+    }
+    .arttherapy-sec2 .leftBig {
+        max-width: 140px;
+        max-height: 140px;
+    }
+    .arttherapy-sec2 .rightBig {
+        max-width: 140px;
+        max-height: 140px;
+    }
+    .liststylesec {
+        max-width: 920px;
+    }
+}
+@media only screen and (max-width:1040px) {}
+@media only screen and (max-width:1025px) {
+  /* responsive-navigation-start */
+    .navigation{
+        display:block;
+    }
+    .mobie-nav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        flex-direction: column;
+        justify-content: center !important;
+        width: 100%;
+        max-width: 230px;
+        height: 100%;
+        background:#dc3545;
+        z-index: 9999;
+        overflow: auto;
+        transition: all 0.5s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .mobie-nav.active {
+        left: 0;
+    }
+    .nav-main{
+        display:none !important;
+    }
+    .mobile-toggle {
+        display: block;
+    }
+    .logo img {
+        max-width: 190px;
+        min-width: 190px;
+        max-height: 130px;
+        min-height: 130px;
+        border-radius: 0 0 50px 50px;
+    }
+    .mainMenu ul li {
+        padding: 0px 0px 10px 0px;
+    }
+/* responsive-navigation-end */
+    .bannerContent {
+        margin: 0px auto 0;
+        z-index: 2;
+    }
+    .leftCurtain {
+        min-width:150px;
+        max-width:150px;
+        min-height:980px;
+        max-height:980px;
+    }
+    .rightCurtain {
+        min-width:150px;
+        max-width: 150px;
+        min-height:980px;
+        max-height:980px;
+    }
+    .indexSectionTwo .bottomBig {
+        bottom: 50px;
+    }
+    .truth-logowrap {
+        top: 16%;
+    }
+    .indexBanner {
+        min-height: 1130px;
+    }
+    .indexSectionThree .bottomBig {
+        bottom: 50px;
+    }
+    .indexSectionFive .formWrap form {
+        width: 750px;
+    }  
+    .arttherapy-sec2 .bottomBig {
+        bottom: -80px !important;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .navigationLinks .linksWrap ul li a {
+        font-size: 18px;
+    }
+    .mainHeading {
+        font-size: 45px;
+    }
+    .indexSectionFive .formWrap form {
+        width: 750px;
+    }
+    .guideCat .title {
+        font-size: 30px !important;
+    }
+    .stainGuide .guideCat {
+        width: 30% !important;
+    }
+    .stainRemoval .secondSecContent .mainHeading {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    
+}
+@media only screen and (max-width:992px) {
+    .indexSectionThree .carouselWrap .therapyInner .main {
+        max-height: 200px;
+        max-width: 335px;
+        margin: 0 auto;
+    }
+    .indexSectionThree .carouselWrap .therapyInner .absArc {
+        top: 0px;
+        left: 50px;
+        max-width: 85px;
+    }
+}
+@media only screen and (max-width:991px) {
+    .liststylesec {
+        max-width: 800px;
+    }
+    .indexSectionThree .carouselWrap .therapyInner .absArc {
+        top: 0px;
+        left: 50px;
+        max-width:85px;
+    }
+    .indexSectionThree .carouselWrap .therapyInner .main {
+        max-height: 200px;
+        max-width: 335px;
+        margin:0 auto;
+    }
+    .indexSectionThree .carouselWrap .therapyInner .contentBox .heading {
+        font-size: 20px;
+    }
+    .indexSectionThree .carouselWrap .therapyInner .contentBox .desc {
+        font-size: 16px;
+    }
+    .mainHeading {
+        font-size: 38px;
+    }
+    .footerWrap .footerLeftArc{
+        min-width: 150px;
+        max-width: 150px;
+        min-height: 150px;
+        max-height: 150px;
+    }
+    .footerWrap .footerLeftArc {
+        left: 48px;
+        top: 145px;
+    }
+    .footerWrap .footerRightArc{
+        min-width: 150px;
+        max-width: 150px;
+        min-height: 150px;
+        max-height: 150px;
+    }
+    .footerWrap .footerRightArc {
+        position: absolute;
+        right: 72px;
+        top: 145px;
+    }
+}
+@media only screen and (max-width:911px) {
+    .indexSectionThree .carouselWrap .therapyInner .absArc {
+        top: 0px;
+        left: 30px;
+        max-width: 85px;
+    }
+}
+@media only screen and (max-width:910px) {
+    .liststylesec {
+        max-width: 640px;
+    }
+    .main-neuro {
+        font-size: 25px !important;
+    }
+    .arttherapy-sec2 .leftBig {
+        max-width: 100px !important;
+        max-height: 100px !important;
+    }
+    .arttherapy-sec2 .rightBig {
+        max-width: 100px !important;
+        max-height: 100px !important;
+    }
+    .arttherapy-sec2 .mainHeading {
+        font-size: 21px;
+    }
+    .indexSectionThree .carouselWrap .therapyInner .absArc {
+        display: none;
+    }
+    .indexSectionFive .formWrap .formTopLeft {
+        display: none;
+    }
+    .indexSectionFive .formWrap .formTopRight {
+        display: none;
+    }
+    .indexSectionFive .formWrap .formBottomLeft {
+        display: none;
+    }
+    .indexSectionFive .formWrap .formBottomRight {
+        display: none;
+    }
+    .footerWrap .footerLeftArc {
+        display: none;
+    }
+    .footerWrap .footerRightArc {
+        display: none;
+    }
+    #starter {
+        left: 30%; 
+    }
+    .indexSectionFive {
+        min-height: 775px;
+    }
+    .footerWrap .copyRightBar p {
+        font-size: 16px;
+    }
+    .indexSectionThree .leftBig {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .indexSectionThree .rightBig {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .indexSectionThree .carouselWrap {
+        margin-top: 34px;
+    }
+    .indexSectionThree {
+        min-height: 950px;
+    }
+    .indexSectionFour {
+        min-height: 445px;
+    }
+    .indexSectionTwo .leftBig {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .indexSectionTwo .rightBig {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .indexSectionTwo {
+        min-height: 780px;
+    }
+    .indexSectionTwo .bottomBig {
+        bottom: 20px;
+    }
+    .truth-logowrap img {
+        min-width: 150px;
+        max-width: 150px;
+        min-height: 150px;
+        max-height: 150px;
+    }
+    .arttherapy-sec2 .bottomBig {
+        bottom: -58px !important;
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .liststylesec {
+        max-width: 525px;
+    }
+    .main-neuro {
+        margin-top:45px;
+    }
+    .guideCat .desc {
+        max-width: 260px;
+    }
+    .stainGuide .guideCat {
+        width: 50% !important;
+    }
+    .secondSecContent .mainHeading {
+        font-size: 18px;
+    }
+    .footerWrap .footerLinks {
+        flex-wrap: wrap;
+    }
+    .indexSectionFive .formWrap form {
+        width: 530px;
+    }
+    .indexSectionFive .formWrap form textarea {
+        width: 100% !important;
+    }
+    .indexSectionFive .formWrap form input {
+        width: 100% !important;
+    }
+    .indexSectionFive {
+        min-height: 900px;
+    }
+    .indexSectionFive .formWrap {
+        height: 615px;
+    }
+    .truth-logowrap {
+        top: 25%;
+        right: 1%;
+    }
+    .truth-logowrap img {
+        min-width: 120px;
+        max-width: 120px;
+        min-height: 120px;
+        max-height: 120px;
+    }
+    .logo img {
+        max-width: 175px;
+        min-width: 175px;
+        max-height: 120px;
+        min-height: 120px;
+        border-radius: 0 0 50px 50px;
+    }
+    .indexSectionThree .carouselWrap .therapyInner .main {
+        max-height: 160px;
+        max-width: 270px;
+    }
+    .indexSectionThree .carouselWrap .therapyInner .absArc {
+        display: none;
+    }
+    .indexSectionThree .carouselWrap{
+        padding-left:60px;
+    }
+    .indexSectionThree .leftBig {
+        max-width: 150px;
+        max-height: 150px;
+    }
+    .indexSectionThree .rightBig {
+        max-width: 150px;
+        max-height: 150px;
+    }
+    .indexSectionThree {
+        min-height: 820px;
+    }
+    .mainHeading {
+        font-size: 28px;
+    }
+    .content {
+        font-size: 20px;
+    }
+    .bannerContent .topLeftArc {
+       display: none;
+    }
+    .bannerContent .topRightArc {
+        display: none;
+    }
+    .bannerContent .bottomLeftArc {
+        display: none;
+    }
+    .bannerContent .bottomRightArc {
+        display: none;
+    }
+    .bannerContent .middleArc {
+        top: 40px;
+        max-width: 230px;
+        max-height: 230px;
+    }
+    .indexBanner {
+        min-height: 995px;
+    }
+    .truth-logowrap {
+        top: 18%;
+    }
+    .indexSectionTwo .leftBig {
+        max-width: 120px;
+        max-height: 120px;
+    }
+    .indexSectionTwo .rightBig {
+        max-width: 120px;
+        max-height: 120px;
+    }
+    .secondSecContent .content {
+        font-size: 16px;
+    }
+    .indexSectionTwo {
+        min-height: 670px;
+    }
+    .indexSectionTwo .bottomBig {
+        max-width: 230px;
+        max-height: 230px;
+    }
+    .indexSectionThree .bottomBig {
+        max-width: 230px;
+        max-height: 230px;
+    }
+    .indexSectionFour .fancyRight {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .indexSectionFour .fancyLeft {  
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .art-image img {
+        max-width: 200px;
+        max-height: 280px;
+        min-height: 280px;
+        min-width: 200px;
+    }
+    .arttherapy-sec2 .bottomBig {
+        display: none;
+    }
+    .arttherapy-banner .content {
+        font-size: 25px;
+    }
+    .arttherapy-banner {
+        min-height: 700px;
+    }
+    .arttherapy-banner .leftCurtain {
+        max-height: 670px;
+        min-height: 670px;
+    }
+    .arttherapy-banner .rightCurtain {
+        max-height: 670px;
+        min-height: 670px;
+    }
+}
+@media only screen and (max-width:575px) {
+    .liststylesec {
+        max-width: 300px;
+    }
+    .stainGuide .guideCat {
+        width: 100% !important;
+    }
+    .arttherapy-banner .leftCurtain {
+        max-width: 80px;
+        min-width: 80px;
+    }  
+    .arttherapy-banner .rightCurtain {
+        max-width: 80px;
+        min-width: 80px;
+    }  
+    .arttherapy-banner .bannerContent .content {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .arttherapy-banner .bannerContent .middleArc {
+        top:8px;
+    }
+    .arttherapy-banner .bannerContent {
+        padding: 70px0 0;
+        min-height: 300px;
+    }
+    #starter {
+        left: 18%;
+    }
+    .arttherapy-banner {
+        min-height: 700px;
+    }
+    .indexSectionFive .formWrap form {
+        width: 345px;
+    }
+    .indexSectionThree .carouselWrap {
+        padding-left: 40px;
+    }
+    .indexSectionThree .rightBig {
+        max-width: 120px;
+        max-height: 120px;
+    }
+    .mainHeading {
+        font-size: 20px;
+    }
+    .indexSectionThree .carouselWrap {
+        margin-top: 25px;
+    }
+    .indexSectionThree .leftBig {
+        max-width: 120px;
+        max-height: 120px;
+    }
+    .indexSectionFour .fancyRight {
+        max-width: 120px;
+        max-height: 120px;
+    }
+    .indexSectionFour .fancyLeft {
+        max-width: 120px;
+        max-height: 120px;
+    }
+    .indexSectionThree {
+        min-height: 740px;
+    }
+    .indexSectionTwo .leftBig {
+        display: none;
+    }
+    .indexSectionTwo .rightBig {
+        display: none;
+    }
+    .indexBanner {
+        min-height: 950px;
+    }
+    .bannerContent .content {
+        font-size: 15px;
+        margin-bottom:40px;
+    }
+    .leftCurtain {
+        min-width: 120px;
+        max-width: 120px;
+        min-height: 900px;
+        max-height: 900px;
+    }
+    .rightCurtain {
+        min-width: 120px;
+         max-width: 120px;
+        min-height: 900px;
+        max-height: 900px;
+    }
+    .bannerContent {
+        min-height: 540px;
+    }
+    .indexSectionTwo .bottomBig {
+        max-width: 180px;
+        max-height: 180px;
+    }
+}
+@media only screen and (max-width:385px) {
+    .liststyle {
+        max-width: 245px;
+    }
+    .liststylesec {
+        max-width: 250px;
+    }
+    .arttherapy-banner .bannerContent .middleArc {
+        max-width: 180px;
+        max-height: 180px;
+    }
+    .indexSectionFive .formWrap form {
+        width: 300px;
+    }
+    .indexSectionThree .leftBig {
+        display: none;
+    }
+    .indexSectionThree .rightBig {
+        display: none;
+    }
+    .indexSectionThree .carouselWrap {
+        padding-left: 20px;
+    }
+    .indexSectionThree .bottomBig {
+        max-width: 150px;
+        max-height: 150px;
+        bottom: 11px;
+    }
+    .content {
+        margin-bottom: 40px;
+    }
+    .indexSectionThree {
+        min-height: 625px;
+    }
+    .indexSectionFour {
+        min-height: 345px;
+    }
+    .indexSectionFour .fancyLeft {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .indexSectionFour .fancyRight {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .truth-logowrap img {
+        min-width: 100px;
+        max-width: 100px;
+        min-height: 100px;
+        max-height: 100px;
+    }
+    .truth-logowrap {
+        top: 22%;
+    }
+    .logo img {
+        max-width: 140px;
+        min-width: 140px;
+        max-height: 100px;
+        min-height: 100px;
+        border-radius: 0 0 50px 50px;
+    }
+    .welcomeTxt {
+        font-size: 20px;
+    }
+    .footerWrap .copyRightBar p {
+        font-size: 14px;
+    }
+    .footerWrap .footerLinks li a {
+        font-size: 18px;
+    }
+    .indexSectionFive {
+        min-height: 820px;
+    }
+    .indexSectionTwo .bottomBig {
+        display: none;
+    }
+    .bannerContent .middleArc {
+        top: 38px;
+    }
+    .indexBanner {
+        min-height: 920px;
+    }
+    .indexBanner .bannerContent .content {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+    .indexBanner .mainHeading {
+        font-size: 17px;
+    }
+    .indexBanner  .welcomeTxt {
+        font-size: 18px;
+    }
+    #starter {
+        left: 4%;
+    }
+}

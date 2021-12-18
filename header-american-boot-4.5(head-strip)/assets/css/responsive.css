@@ -1,0 +1,448 @@
+@media only screen and (max-width:1920px) {
+}
+@media only screen and (max-width:1540px) {
+}
+@media only screen and (max-width:1440px) {
+	.index-sec2-slider .owl-nav {
+		width: 112%;
+		left: -6%;
+	}
+}
+@media only screen and (max-width:1280px) {
+	.logo img {
+		max-width: 250px;
+	}
+	.navigation ul li a {
+		font-size: 12px;
+	}
+
+	.index-sec1-heading {
+		font-size: 50px;
+	}
+	.index-sec1 {
+		min-height: 735px;
+	}
+	.sec1-tabs-wrap {
+		max-width: 900px;
+		margin: 0 auto;
+	}
+	.index-sec2-slider .owl-nav {
+		width: 100%;
+		left: 0px;
+     	top: 65px;
+	
+	}
+}
+@media only screen and (max-width:1040px) {}
+@media only screen and (max-width:1024px) {
+	.main-menu {
+		padding: 10px 0;
+	}
+	.mobile-toggle {
+		display: block;
+	}
+	.mobile-menu {
+	    position: fixed;
+	    left: -100%;
+	    top: 0;
+	    flex-direction: column;
+	    background: #111111e8;
+	    height: 100%;
+	    z-index: 99999;
+	    max-width: 280px;	
+	    width: 100%;
+	    justify-content: center;
+	    transition: all 0.5s ease-in-out;
+	}
+	.navigation ul li a {
+	    color: #fff;
+	    margin: 5px 10px;
+	    display: block;
+	    font-size: 18px;
+	    text-align: center;
+	}
+	.header-topBar-wrap .left ul li a, .header-topBar-wrap .right ul li a {
+    	font-size: 13px;
+	}
+}
+@media only screen and (max-width:991px) {
+	.team-footer {
+		padding: 5px 5px;
+	}
+	.section-heading {
+		font-size: 32px;
+	}
+	.chooseUs-heading {
+		font-size: 17px;
+	}
+	.chooseUs-paragraph {
+		font-size: 13px;
+	}
+	.footer-col2 ul li a {
+		font-size: 12px;
+	}
+	
+}
+@media only screen and (max-width:910px) {
+	.index-sec1 {
+		min-height: 620px;
+	}
+	.index-sec1-heading {
+		font-size: 40px;
+	}
+	.advanced {
+		min-height: 68px;
+	}
+	.section-heading {
+		font-size: 25px;
+	}
+	.team-title span {
+		font-size: 11px;
+	}
+	.team-title {
+		font-size: 14px;
+
+	}
+	.category-overly a {
+		font-size: 15px;
+	}
+	.team-card a {
+		font-size: 11px;
+	}
+	.newsletter-head .paragraph {
+		font-size: 12px;
+	}
+	.newsletter-head .heading {
+		font-size: 19px;
+
+	}
+	.footer-bottom p {
+		font-size: 14px;
+	}
+	.footer-logo img {
+		max-width: 260px;
+	}
+	.footer-content .paragraph {
+		font-size: 13px;
+	}
+	.footer-heading {
+		font-size: 15px;
+	}
+	.footer-col2 ul li a {
+		font-size: 12px;
+	}
+	.chooseUs-paragraph {
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width:800px) {
+	.footer-col2 ul li a {
+		font-size: 10px;
+	}
+	.footer-content .paragraph {
+		font-size: 10px;
+	}
+}
+@media only screen and (max-width:767px) {
+	.footer-heading {
+		font-size: 17px;
+	}
+	.footer-bottom p {
+		font-size: 14px;
+	}
+	.footer-content .paragraph {
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+	.footer-col2 ul li a {
+		font-size: 14px;
+	}
+	.padding-remove {
+		padding-left: 18px !important;
+	}
+	.index-sec2-slider .owl-nav button {
+		width: 45px;
+		height: 45px;
+		font-size: 24px !important;
+	}
+	.index-sec2-slider .owl-nav {
+		width: 100%;
+		left: 0px;
+		top: 200px;
+	}
+	.section-title {
+		font-size: 11px;
+	}
+	.append-box {
+		flex-direction: row;
+		width: 100%;
+		margin-top: 15px;
+		/* flex-wrap: wrap; */
+	}
+	/* .all-type {
+		margin-left: 15px;
+	} */
+	.keyword-box label, .all-type label {
+		margin-top: 10px;
+	}
+	
+	.all-type select {
+		font-size: 12px;
+
+	}
+	.keyword-box input {
+		font-size: 12px;
+	}
+	.index-sec1-heading span {
+		font-size: 20px;
+	}
+	/* start */
+ .submit-button button {
+		justify-content: center;
+		width: 100%;
+	}
+	.keyword-box {
+		margin-right: 6px;
+	}
+	.all-type {
+		width: 100%;
+    max-width: none;
+	}
+	.advanced {
+		width: 100%;
+		min-height: 70px;
+		flex-direction: column;
+		max-width: none;
+		margin: 10px 0 0;
+		margin: 0px 5px 0;
+	
+	}
+	.all-type select {
+		max-width: none;
+		width: 100%;
+	}
+	.for-rent-box {
+		display: flex;
+		flex-direction: column;
+	}
+	.submit-button {
+		width: 100%;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.section-heading span {
+		font-size: 12px;
+	}
+	.section-heading {
+		font-size: 18px;
+	}
+	.index-sec1 {
+		min-height: 570px;
+	}
+	.index-sec1-heading span {
+		font-size: 20px;
+	}
+	.index-sec1-heading {
+		font-size: 32px;
+		margin-bottom: 20px;
+	}
+	/* end */
+	.newsletter-head .paragraph {
+		margin-bottom: 15px;
+	}
+	.login-anchor {
+    	margin-left: 0px !important;
+	}
+	.logo {
+    	max-width: 250px;
+	}
+	.category-box img {
+		margin-top: 10px;
+	}
+}
+@media only screen and (max-width:575px) {
+	.property-card-footer ul {
+		overflow: hidden !important;
+	}
+	.section-head  .section-heading span {
+		font-size: 11px;
+	}
+	.section-head .section-heading {
+		font-size: 13px;
+	}
+	.footer-content .paragraph {
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+	.footer-col2 ul li a {
+		font-size: 14px;
+	}
+	.footer-bottom p {
+		font-size: 14px;
+	}
+	.padding-remove {
+		padding-left: 18px !important;
+	}
+	.submit-button button {
+		padding: 10px 55px;
+	}
+	.advanced {
+		min-height: 50px;
+	}
+	.logo img {
+		max-width: 210px;
+	}
+	.section-title {
+		padding: 16px 7px;
+	}
+	.index-sec1-heading span {
+		font-size: 15px;
+	}
+	.index-sec1-heading {
+		font-size: 25px;
+	}
+	 .append-box {
+		 flex-wrap: wrap; 
+	} 
+	.advanced {
+		margin: 10px 0px 0;
+	}
+	.logo {
+    	max-width: 200px;
+	}
+	.header-topBar-wrap {
+    	flex-direction: column;
+	}
+	.header-topBar-wrap .left, .header-topBar-wrap .right {
+    	width: 100%;
+	}
+	.category-box img {
+		margin-top: 10px;
+	}
+	.category-overly a {
+		padding: 9px 5px;
+	}
+}
+@media only screen and (max-width:385px) {
+	.index-sec5 {
+		padding: 30px 0;
+	}
+	.index-sec4 {
+		padding: 30px 0;
+	}
+	.property-card-footer ul {
+		overflow: hidden !important;
+	}
+	.category-overly a {
+		font-size: 12px;
+	}
+	.footer-bottom p {
+		font-size: 13px;
+	}
+	.padding-remove {
+		padding-left: 18px !important;
+	}
+	.footer-social ul li a {
+		font-size: 14px;
+		padding: 8px 12px;
+	}
+	.footer-col2 {
+		margin-top: 15px;
+	}
+	.footer-content .paragraph {
+		font-size: 13px;
+	}
+	.footer-heading {
+		font-size: 16px;
+	}
+	.footer-col2 ul li a {
+		font-size: 13px;
+	}
+	.property-card {
+		overflow: hidden;
+	}
+	.category-box img {
+		min-height: 290px;
+	}
+	.submit-button button {
+		padding: 10px 55px;
+	}
+	.advanced {
+		min-height: 50px;
+	}
+	.category-box img {
+		margin-top: 10px;
+	}
+	.category-overly a {
+		padding: 9px 5px;
+	}
+	.property-tag {
+		font-size: 11px;
+	}
+	.property-price {
+		font-size: 16px;
+	}
+	.property-title {
+		font-size: 16px;
+	}
+	.property-title span {
+	font-size: 12px;
+	}
+	.index-sec2-slider .owl-nav {
+	    width: 103%;
+    left: -4px;
+    top: 69px;
+	}
+	.sec1-tabs-wrap {
+		margin-top: 31px;
+	}
+	.index-sec2 {
+		padding: 25px 0;
+	}
+	.section-head {
+
+		flex-direction: column;
+	}
+	.section-heading span {
+	    font-size: 13px;
+	}
+	.section-heading {
+		font-size: 15px;
+	}
+	.section-title {
+	    font-size: 12px;
+        padding: 12px 14px;
+        margin-top: 15px;
+	}
+	.index-sec1-heading span {
+		font-size: 14px;
+	}
+	.index-sec1-heading {
+		font-size: 20px;
+	}
+	.navigation {
+		max-width: 38px;
+	}
+	.logo img {
+		max-width: 170px;
+	}
+	.footer-social {
+		max-width: 200px;
+	}
+	.footer-logo img {
+		max-width: 230px;
+	}
+	.banner-tabs .nav-link {
+		font-size: 12px;
+		padding: 13px 29px;	
+	}
+	.header-topBar-wrap .left ul li a, .header-topBar-wrap .right ul li a {
+    	font-size: 12px;
+	}
+	.logo {
+    	max-width: 150px;
+	}
+	.mobile-menu {
+		max-width: 260px;
+	}
+}

@@ -1,0 +1,670 @@
+   
+//script active tab
+  <script>
+        $(".activeTab").click(function() {
+            $(".activeTab").removeClass("active");
+            $(this).addClass("active");
+        });
+        </script>
+
+
+//paragraph active tab
+.activeTab.active p{
+    color: #0967d0 !Important;
+    font-weight: 500 !Important;
+}
+
+//html
+<!--chart-section-start-->
+                <div class="barChartWrap">
+                    <div class="row m-0">
+                        <div class="col-12 col-md-8 col-lg-9">
+                            <div class="tab-content" id="v-pills-tabContent">    
+                                 <!--head-start-->
+                                <div role="tabpanel"  class="tab-pane active" id="tab1">
+                                        <div class="bar">
+                                            <div class="teams-wrap">
+                                                <div class="teamsDetails">
+                                                    <span class="leave-quota">
+                                                        <img src="images/leave-quota.png" alt="profile image">
+                                                    </span>
+                                                    <div class="teams-name">
+                                                        <p class="name">Reports</p>
+                                                        <p class="designation">Top Punctual Resource</p>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                           <div class="bar-cal input-field">
+                                                <input type="date"  for="cal" class="input-date">
+                                           </div>
+                                        </div>
+                                        <div class="report-chart">
+                                            <canvas id="myChart"></canvas>
+                                        </div>
+                                  </div>
+                                 <!--head-end-->  
+                                 <!--head-start-->
+                                <div role="tabpanel" class="tab-pane" id="tab2">
+                                    <div class="graph-wrap">
+                                         <div class="bar">
+                                            <div class="teams-wrap">
+                                                <div class="teamsDetails">
+                                                    <span class="leave-quota">
+                                                        <img src="images/leave-quota.png" alt="profile image">
+                                                    </span>
+                                                    <div class="teams-name">
+                                                        <p class="name">Reports</p>
+                                                        <p class="designation">Leave Quota</p>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                           <div class="bar-cal input-field">
+                                              <input type="date"  for="cal" class="input-date">
+                                           </div>
+                                         </div>
+                                        <div class="report-chart">
+                                           <canvas id="my-Chartone"></canvas>
+                                        </div>
+                                     </div>
+                                  </div>
+                                <!--head-end-->  
+                                <!--head-start-->
+                                <div role="tabpanel" class="tab-pane" id="tab3">
+                                    <div class="graph-wrap">
+                                         <div class="bar">
+                                            <div class="teams-wrap">
+                                                <div class="teamsDetails">
+                                                    <span class="leave-quota">
+                                                        <img src="images/leave-quota.png" alt="profile image">
+                                                    </span>
+                                                    <div class="teams-name">
+                                                        <p class="name">Reports</p>
+                                                        <p class="designation">Leave Report</p>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                           <div class="bar-cal input-field">
+                                              <input type="date"  for="cal" class="input-date">
+                                           </div>
+                                         </div>
+                                        <div class="report-chart">
+                                           <canvas id="my-Charttwo"></canvas>
+                                        </div>
+                                     </div>
+                                  </div>
+                                <!--head-end-->  
+                                <!--head-start-->
+                                <div role="tabpanel" class="tab-pane" id="tab4">
+                                    <div class="graph-wrap">
+                                         <div class="bar">
+                                            <div class="teams-wrap">
+                                                <div class="teamsDetails">
+                                                    <span class="leave-quota">
+                                                        <img src="images/leave-quota.png" alt="profile image">
+                                                    </span>
+                                                    <div class="teams-name">
+                                                        <p class="name">Reports</p>
+                                                        <p class="designation">Time Tracking</p>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                           <div class="bar-cal input-field">
+                                              <input type="date"  for="cal" class="input-date">
+                                           </div>
+                                         </div>
+                                        <div class="report-chart">
+                                           <canvas id="my-Chartthr"></canvas>
+                                        </div>
+                                     </div>
+                                  </div>
+                                <!--head-end-->  
+                                <!--head-start-->
+                                <div role="tabpanel" class="tab-pane" id="tab5">
+                                    <div class="graph-wrap">
+                                         <div class="bar">
+                                            <div class="teams-wrap">
+                                                <div class="teamsDetails">
+                                                    <span class="leave-quota">
+                                                        <img src="images/leave-quota.png" alt="profile image">
+                                                    </span>
+                                                    <div class="teams-name">
+                                                        <p class="name">Reports</p>
+                                                        <p class="designation">Irregular Time Sheet</p>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                           <div class="bar-cal input-field">
+                                              <input type="date"  for="cal" class="input-date">
+                                           </div>
+                                         </div>
+                                        <div class="report-chart">
+                                           <canvas id="my-Chartfou"></canvas>
+                                        </div>
+                                     </div>
+                                  </div>
+                                <!--head-end-->  
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3">
+                            <div class="report-catwrap">
+                                <div class="report-cat" >
+                                    <p class="report-text"><span class="report-img"><img src="images/report-cat.png" class="img-fluid"></span>Reports Categories</p>
+                                </div>
+                                <div class="report-content" class="nav nav-tabs" id="actwrap" role="tablist" >
+                                    <div class="report-contentwrap">
+                                        <a class="activeTab active" href="#tab1" data-toggle="pill"  aria-controls="tab1" role="tab" data-toggle="tab" >
+                                            <p class="report-contentext">
+                                                <span class="report-img">
+                                                    <img src="images/punc.png" class="img-fluid">
+                                                </span>Top Punctual Resource
+                                            </p>    
+                                        </a>
+                                    </div>
+                                    <div class="report-contentwrap">
+                                        <a class="activeTab" href="#tab2" aria-controls="tab2" data-toggle="pill" role="tab" data-toggle="tab" >    
+                                            <p class="report-contentext">
+                                                <span class="report-img">
+                                                    <img src="images/leave.png" class="img-fluid">
+                                                </span>Leave Quota
+                                            </p>
+                                        </a>    
+                                    </div>
+                                    <div class="report-contentwrap">
+                                        <a class="activeTab" href="#tab3" aria-controls="tab3" data-toggle="pill" data-toggle="tab" >      
+                                            <p class="report-contentext">
+                                                <span class="report-img">
+                                                    <img src="images/leavereport.png" class="img-fluid">
+                                                </span>Leave Report
+                                            </p>
+                                        </a>    
+                                   </div>
+                                    <div class="report-contentwrap">
+                                        <a class="activeTab" href="#tab4" aria-controls="tab4" data-toggle="pill" role="tab" data-toggle="tab">    
+                                            <p class="report-contentext">
+                                                <span class="report-img">
+                                                    <img src="images/track.png" class="img-fluid">
+                                                </span>Time Tracking
+                                            </p>
+                                        </a>    
+                                    </div>
+                                    <div class="report-contentwrap" style="padding-bottom:30px;">
+                                        <a class="activeTab" href="#tab5" aria-controls="tab5" data-toggle="pill"  data-toggle="tab" >    
+                                            <p class="report-contentext">
+                                                <span class="report-img">
+                                                   <img src="images/time.png" class="img-fluid">
+                                                </span>Irregular Time Sheet
+                                            </p>
+                                        </a>   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--chart-section-end-->
+
+
+//Graph-scripts
+//graph-link
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+            var ctx = document.getElementById('my-Chartone');
+            var mygraph = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                    datasets: [{
+                        label: '',
+                        data: [1050, 1100, 800, 600, 820, 1200, 600, 400, 1200, 700, 500, 300],
+                        backgroundColor: [
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)'
+                        ],
+                        borderColor: [],
+                        borderWidth: 1,
+                    }]
+                },
+                options: {
+                    scales: {
+                        x: {
+                            grid: {
+                                display: false,
+                            },
+                        },
+                        y: {
+                            grid: {
+                                display: true,
+                                lineWidth: 2
+                            },
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false,
+                        }
+                    }
+                }
+            });
+        </script>
+         <script>
+            var ctx = document.getElementById('my-Charttwo');
+            var mybar = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                    datasets: [{
+                        label: '',
+                        data: [1050, 1100, 800, 600, 820, 1200, 600, 400, 1200, 700, 500, 300],
+                        backgroundColor: [
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)'
+                        ],
+                        borderColor: [],
+                        borderWidth: 1,
+                    }]
+                },
+                options: {
+                    scales: {
+                        x: {
+                            grid: {
+                                display: false,
+                            },
+                        },
+                        y: {
+                            grid: {
+                                display: true,
+                                lineWidth: 2
+                            },
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false,
+                        }
+                    }
+                }
+            });
+        </script>
+         <script>
+            var ctx = document.getElementById('my-Chartthr');
+            var mydata = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                    datasets: [{
+                        label: '',
+                        data: [1050, 1100, 800, 600, 820, 1200, 600, 400, 1200, 700, 500, 300],
+                        backgroundColor: [
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)'
+                        ],
+                        borderColor: [],
+                        borderWidth: 1,
+                    }]
+                },
+                options: {
+                    scales: {
+                        x: {
+                            grid: {
+                                display: false,
+                            },
+                        },
+                        y: {
+                            grid: {
+                                display: true,
+                                lineWidth: 2
+                            },
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false,
+                        }
+                    }
+                }
+            });
+        </script>
+         <script>
+            var ctx = document.getElementById('my-Chartfou');
+            var mychart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                    datasets: [{
+                        label: '',
+                        data: [1050, 1100, 800, 600, 820, 1200, 600, 400, 1200, 700, 500, 300],
+                        backgroundColor: [
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)'
+                        ],
+                        borderColor: [],
+                        borderWidth: 1,
+                    }]
+                },
+                options: {
+                    scales: {
+                        x: {
+                            grid: {
+                                display: false,
+                            },
+                        },
+                        y: {
+                            grid: {
+                                display: true,
+                                lineWidth: 2
+                            },
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false,
+                        }
+                    }
+                }
+            });
+        </script>
+         <script>
+            var ctx = document.getElementById('myChart');
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                    datasets: [{
+                        label: '',
+                        data: [1050, 1100, 800, 600, 820, 1200, 600, 400, 1200, 700, 500, 300],
+                        backgroundColor: [
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)'
+                        ],
+                        borderColor: [],
+                        borderWidth: 1,
+                    }]
+                },
+                options: {
+                    scales: {
+                        x: {
+                            grid: {
+                                display: false,
+                            },
+                        },
+                        y: {
+                            grid: {
+                                display: true,
+                                lineWidth: 2
+                            },
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false,
+                        }
+                    }
+                }
+            });
+        </script>
+         <script>
+            var ctx = document.getElementById('myCharts');
+            var myCharts = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                    datasets: [{
+                        label: '',
+                        data: [1050, 1100, 800, 600, 820, 1200, 600, 400, 1200, 700, 500, 300],
+                        backgroundColor: [
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)',
+                            'rgba(9, 103, 208, 1)'
+                        ],
+                        borderColor: [],
+                        borderWidth: 1,
+                    }]
+                },
+                options: {
+                    scales: {
+                        x: {
+                            grid: {
+                                display: false,
+                            },
+                        },
+                        y: {
+                            grid: {
+                                display: true,
+                                lineWidth: 2
+                            },
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false,
+                        }
+                    }
+                }
+            });
+        </script>
+
+//bar-chart-css
+/* Bar Chart Wrap CSS */
+.barChartWrap{
+    padding: 0 20px 30px 20px;
+}
+.barChartWrap .report-chart {
+    max-height: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+
+}
+.report-catwrap{
+    background: #fff;
+    height: auto;
+    border-radius: 20px;
+}
+.report-img img {
+    max-width: 25px;
+    max-height: 25px;
+}
+.report-cat {
+    background: #dee5f7;
+    padding: 15px 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+.report-text {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: #282828;
+    font-weight: 600;
+    font-size: 17px;
+}
+.report-img {
+    margin-right: 12px;
+}
+.report-contentext{
+    color:#091829;
+    font-size:16px;
+    font-weight:400;
+     margin: 0;
+}
+.report-content {
+    padding: 10px 15px 0 15px;
+}
+.report-contentwrap {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6f0fa;
+    padding: 10px 0;
+}
+.report-contentext:hover {
+    color: #0967d0;
+    font-weight: 500;
+}
+.barChartWrap .bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+}
+.leave-quota img {
+    max-width: 65px;
+    max-height: 65px;
+}
+.bar .teams-wrap {
+    padding: 10px 10px;
+}
+.bar .teamsDetails .teams-name .designation {
+    color:#6c6b6b;
+    font-weight:500;
+    font-size:18px;
+}
+.input-date {
+    outline: none;
+    background: #dee5f7;
+    padding: 15px 15px;
+    border: none;
+    font-weight: 600;
+}
+.bar-cal input {
+    border-radius: 10px !important;
+}
+/*.input-date:before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    background:url(images/calendar.png);*/
+/*    height: 25px;*/
+/*    width: 25px;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    right: 13px;*/
+/*    top: 11px;*/
+/*}*/
+.bar-cal {
+    position: relative;
+}
+a.report-contentwrap {
+    text-decoration: none;
+}
+.bar-icon {
+    position: absolute;
+    right: 15px;
+    top: 13px;
+}
+
+.bar-cal input[type="date"] {
+  position: relative;
+  padding: 10px;
+}
+.bar-cal input[type="date"]::-webkit-calendar-picker-indicator {
+  color: transparent;
+  background: none;
+  z-index: 1;
+}
+.bar-cal input[type="date"]:before {
+    content: '';
+    position: absolute;
+    right: 10px;
+    width: 21px;
+    height: 23px;
+    top: 10px;
+    background: url(../images/calendar.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.pie-wrap {
+    background: #fff;
+    padding: 40px 40px;
+    border-radius: 20px;
+    min-width: 900px;
+}
+.employee-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.emp-text{
+    display:block;
+}
+.emp-textwrap{
+    color:#011832;
+    font-size:25px;
+    font-weight:600; 
+}
+.employee-wrap {
+    min-width: 460px;
+    max-width: 460px;
+    min-height: 460px;
+    max-height: 460px;
+    padding: 0 25px 0px 0px;
+    border-right: 1px solid #dcdbdb;
+}
+.pie-chart {
+    padding: 20px 20px 30px 20px;
+}
+.report-contentwrap a {
+    text-decoration: none;
+}
+.activeTab.active p{
+    color: #0967d0 !Important;
+    font-weight: 500 !Important;
+}

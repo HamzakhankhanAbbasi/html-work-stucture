@@ -1,0 +1,100 @@
+@media only screen and (max-width:1550px){}
+@media only screen and (max-width:1440px){
+	.loginScreen .rightWrap .field {
+		height: 50px;
+	}
+}
+@media only screen and (max-width:1350px){}
+
+@media only screen and (max-width:1200px){
+	
+}
+@media only screen and (max-width:1180px){}
+@media only screen and (max-width:1024px){
+	/* popup ways modal css */
+
+	.loginWays .modal-body {
+		padding: 40px 20px;
+	}
+	.loginWays .socialLogins a{
+		margin: 0 auto 10px auto;
+	}
+	.companyProfile img {
+		max-width: 150px;
+	}
+	.loginWays .companyProfile .email {
+		font-size: 16px;
+	}
+	.loginWays .companyProfile .header-tagline {
+		font-size: 18px;
+	}
+	.loginWays .modal-content .btn-close {
+		right: 20px;
+		top: 20px;
+	}
+}
+@media only screen and (max-width:991px){
+	.loginScreen{
+		height: 100% !important;
+	}
+	.loginScreen .rightWrap .innerWrap{
+		margin-top: 30px;
+	}
+	.loginScreen .userActivities{
+		margin-bottom: 50px;
+	}
+
+	.signUpScreen .rightWrap .innerWrap{
+		margin-top: 10px;
+	}
+	.signUpScreen .logo img{
+		max-width: 70px;
+	}
+	.signUpScreen .rightWrap .field {
+		height: 45px;
+	}
+	.signUpScreen .userActivities {
+		margin: 20px 0;
+	}
+	.paymentInfo .dateWrap {
+		max-width: 300px;
+	}
+
+}
+@media only screen and (max-width:767px){
+	.loginScreen .leftWRap{
+		display: none !important;
+	}
+	.loginScreen .rightWrap .logo img{
+		max-width: 80px;
+	}
+	.loginScreen .rightWrap .field {
+		height: 45px;
+	}
+	.loginScreen .btn-gen {
+		width: 75%;
+		margin: 0 auto;
+		height: 45px;
+	}
+}
+@media only screen and (max-width:700px){}
+@media only screen and (max-width:600px){}
+@media only screen and (max-width:575px){
+	.copyRight p {
+		font-size: 13px;
+	}
+	/* popup ways modal css */
+	.loginWays .modal-dialog {
+		margin: auto;
+	}
+	.loginWays .socialLogins a {
+		max-width: 270px;
+	}
+	.loginWays .socialLogins .link {
+		width: calc(100% - 100px);
+	}
+	.loginWays .modal-dialog {
+		max-width: 350px;
+	}
+}
+@media only screen and (max-width:380px){}
